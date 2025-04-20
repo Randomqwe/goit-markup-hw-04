@@ -378,14 +378,14 @@ body {
 }
 
 .svg-social-icon {
+}
+
+.our-team-social-list {
   display: flex;
   justify-content: center;
   gap: 24px;
   flex-direction: row;
   text-align: center;
-}
-
-.our-team-social-list {
 }
 
 .our-team-social-list-item {

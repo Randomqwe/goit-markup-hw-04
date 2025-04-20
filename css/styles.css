@@ -285,7 +285,7 @@ body {
 }
 
 .container-advantages-item {
-  flex-basis: calc((100%-72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .svg-icon {
@@ -297,6 +297,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 8px;
 }
 
 .container-advantages-list-title {
@@ -347,8 +348,10 @@ body {
 
 .our-team-item {
   background-color: #ffffff;
-  flex-basis: calc((100%-72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0 1px 1px rgba(46, 47, 66, 0.16), 0 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .our-team-description {
@@ -374,6 +377,31 @@ body {
   color: #434455;
 }
 
+.svg-social-icon {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-direction: row;
+  text-align: center;
+}
+
+.our-team-social-list {
+}
+
+.our-team-social-list-item {
+  width: 40px;
+  height: 40px;
+}
+
+.our-team-social-links {
+  background-color: #4d5ae5;
+  border-radius: 50%;
+}
+
+.our-team-social-logo-svg {
+}
+
+1
 /* section-ourteam */
 
 /* our-portfolio */

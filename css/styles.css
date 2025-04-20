@@ -246,7 +246,7 @@ body {
 
 .container-section-main-bnt:hover,
 .container-section-main-bnt:focus {
-  background: #404bbf;
+  background-color: #404bbf;
 }
 
 /* section-main */
@@ -286,6 +286,17 @@ body {
 
 .container-advantages-item {
   flex-basis: calc((100%-72px) / 4);
+}
+
+.svg-icon {
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background: #f4f4fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container-advantages-list-title {

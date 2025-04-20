@@ -397,9 +397,16 @@ body {
   height: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+.our-team-social-links:hover,
+.our-team-social-links:focus {
+  background-color: #404bbf;
 }
 
 .our-team-social-logo-svg {
+  fill: #f4f4fd;
 }
 
 1

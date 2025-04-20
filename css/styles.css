@@ -203,7 +203,7 @@ body {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url("./images/officepople.jpg");
+    url("../images/officepople.jpg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
   /* background-position: 50px 30px; */
